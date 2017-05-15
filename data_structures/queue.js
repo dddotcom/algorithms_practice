@@ -1,8 +1,10 @@
 //create queue class
-var Queue = function(){
-  this.storage = {};
-  this.count = 0;
-  this.lowestCount = 0;
+var Queue = class Queue {
+  constructor(){
+    this.storage = {};
+    this.count = 0;
+    this.lowestCount = 0;
+  }
 }
 
 //create queue methods
